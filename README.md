@@ -28,7 +28,7 @@ CPPASM Calc v2.1 is an advanced scientific calculator developed in C++ using inl
 - **Absolute Value:** Calculates the absolute value of a number.
 - **Mathematical Constants:** Provides constants such as `e` (Euler's Number) and `π` (Pi).
 
-## New in Version 2.0
+## New in Version 2.1
 
 ### Basic Operations Improvements
 
