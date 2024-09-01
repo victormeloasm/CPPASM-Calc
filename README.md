@@ -110,14 +110,12 @@ Contributions are welcome! If you wish to contribute to the development of CPPAS
   - Bug fixes in the interface.
   - Improved performance for floating-point calculations.
 
----
-
 ## Features
 
 * Addition, Subtraction, Multiplication, and Division with SSE4.2 support.
 * Intuitive interface for easy use.
 * Optimized input and output for precise floating-point calculations.
-* 
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
