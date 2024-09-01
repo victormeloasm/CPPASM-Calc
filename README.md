@@ -99,12 +99,12 @@ Contributions are welcome! If you wish to contribute to the development of CPPAS
 
 ## Latest Release
 
-### [CPPASM Calc v2.0 - Windows](https://github.com/victormeloasm/CPPASM-Calc/releases/tag/Random) 🚀
+### [CPPASM Calc v2.1 - Windows](https://github.com/victormeloasm/CPPASM-Calc/releases/tag/Random) 🚀
 
 - **Platform:** Windows
 - **Description:** This release includes the Windows version of CPPASM Calc v2.0, optimized with Assembly and full support for basic operations using SSE4.2.
 - **Download:**
-  - [CPPASM.Calc.v2.0.zip](https://github.com/victormeloasm/CPPASM-Calc/releases/download/Windows/CPPASM.Calc.v2.1.zip)
+  - [CPPASM.Calc.v2.1.zip](https://github.com/victormeloasm/CPPASM-Calc/releases/download/Windows/CPPASM.Calc.v2.1.zip)
 - **What's New:**
   - Implementation of basic mathematical operations in Assembly.
   - Bug fixes in the interface.
