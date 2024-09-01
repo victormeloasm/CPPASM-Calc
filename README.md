@@ -1,105 +1,105 @@
 # CPPASM Calc v2.0
 
-## Descrição
+## Description
 
-A CPPASM Calc v2.0 é uma calculadora científica avançada desenvolvida em C++ utilizando Assembly inline para operações matemáticas de alta precisão e desempenho. Esta versão inclui uma série de atualizações e melhorias para proporcionar uma experiência de cálculo mais eficiente e intuitiva.
+CPPASM Calc v2.0 is an advanced scientific calculator developed in C++ using inline Assembly for high precision and performance mathematical operations. This version includes a series of updates and improvements to provide a more efficient and intuitive calculation experience.
 
-![Interface da Calculadora](Screenshot.png)
+![Calculator Interface](Screenshot.png)
 
-## Funcionalidades
+## Features
 
-### Operações Matemáticas Básicas
+### Basic Mathematical Operations
 
-- **Adição:** Realiza a soma de dois números.
-- **Subtração:** Realiza a subtração de dois números.
-- **Multiplicação:** Realiza a multiplicação de dois números.
-- **Divisão:** Realiza a divisão de dois números e lida com a divisão por zero.
+- **Addition:** Performs the sum of two numbers.
+- **Subtraction:** Performs the subtraction of two numbers.
+- **Multiplication:** Performs the multiplication of two numbers.
+- **Division:** Performs the division of two numbers and handles division by zero.
 
-### Funções Matemáticas Avançadas
+### Advanced Mathematical Functions
 
-- **Raiz Quadrada:** Calcula a raiz quadrada de um número.
-- **Seno e Cosseno:** Calcula o seno e o cosseno de um ângulo em graus.
-- **Funções Trigonométricas:** Inclui tangente, cotangente e arco tangente.
-- **Logaritmos e Exponenciais:** Calcula logaritmos naturais, logaritmos na base 10 e exponenciais.
+- **Square Root:** Calculates the square root of a number.
+- **Sine and Cosine:** Calculates the sine and cosine of an angle in degrees.
+- **Trigonometric Functions:** Includes tangent, cotangent, and arctangent.
+- **Logarithms and Exponentials:** Calculates natural logarithms, base 10 logarithms, and exponentials.
 
-### Operações Especiais
+### Special Operations
 
-- **Fatorial:** Calcula o fatorial de um número inteiro.
-- **Valor Absoluto:** Calcula o valor absoluto de um número.
-- **Constantes Matemáticas:** Disponibiliza constantes como `e` (Número de Euler) e `π` (Pi).
+- **Factorial:** Calculates the factorial of an integer.
+- **Absolute Value:** Calculates the absolute value of a number.
+- **Mathematical Constants:** Provides constants such as `e` (Euler's Number) and `π` (Pi).
 
-## Novidades na Versão 2.0
+## New in Version 2.0
 
-### Melhorias nas Operações Básicas
+### Basic Operations Improvements
 
-A versão 2.0 traz uma atualização significativa para as operações básicas:
-- **Foco Automático:** Após cada operação matemática básica (adição, subtração, multiplicação e divisão), o foco é automaticamente retornado ao campo de entrada (`Edit1`), permitindo ao usuário continuar digitando sem precisar clicar manualmente no campo.
+Version 2.0 brings a significant update to basic operations:
+- **Automatic Focus:** After each basic mathematical operation (addition, subtraction, multiplication, and division), the focus is automatically returned to the input field (`Edit1`), allowing the user to continue typing without needing to manually click on the field.
 
-### Atualizações Detalhadas
+### Detailed Updates
 
-#### Adição (`Button22Click`)
-- **Descrição:** Realiza a adição entre dois números.
-- **Comportamento:** Atualiza o campo de entrada com o resultado e retorna o foco ao campo de entrada.
+#### Addition (`Button22Click`)
+- **Description:** Performs addition between two numbers.
+- **Behavior:** Updates the input field with the result and returns the focus to the input field.
 
-#### Subtração (`Button25Click`)
-- **Descrição:** Realiza a subtração entre dois números.
-- **Comportamento:** Atualiza o campo de entrada com o resultado e retorna o foco ao campo de entrada.
+#### Subtraction (`Button25Click`)
+- **Description:** Performs subtraction between two numbers.
+- **Behavior:** Updates the input field with the result and returns the focus to the input field.
 
-#### Multiplicação (`Button24Click`)
-- **Descrição:** Realiza a multiplicação entre dois números.
-- **Comportamento:** Atualiza o campo de entrada com o resultado e retorna o foco ao campo de entrada.
+#### Multiplication (`Button24Click`)
+- **Description:** Performs multiplication between two numbers.
+- **Behavior:** Updates the input field with the result and returns the focus to the input field.
 
-#### Divisão (`Button23Click`)
-- **Descrição:** Realiza a divisão entre dois números e lida com a divisão por zero.
-- **Comportamento:** Atualiza o campo de entrada com o resultado e retorna o foco ao campo de entrada.
+#### Division (`Button23Click`)
+- **Description:** Performs division between two numbers and handles division by zero.
+- **Behavior:** Updates the input field with the result and returns the focus to the input field.
 
-### Funções Matemáticas
+### Mathematical Functions
 
-- **Raiz Quadrada (`Button1Click`):** Calcula a raiz quadrada do número inserido.
-- **Seno (`Button2Click`):** Calcula o seno de um ângulo em graus.
-- **Cosseno (`Button3Click`):** Calcula o cosseno de um ângulo em graus.
-- **Tangente (`Button6Click`):** Calcula a tangente de um ângulo em graus.
-- **Cotangente (`Button7Click`):** Calcula a cotangente de um ângulo em graus.
-- **Arco Tangente (`Button8Click`):** Calcula o arco tangente de um valor.
-- **Logaritmo Natural (`Button14Click`):** Calcula o logaritmo natural de um valor.
-- **Logaritmo Base 2 (`Button12Click`):** Calcula o logaritmo na base 2 de um valor.
-- **Logaritmo Base 10 (`Button13Click`):** Calcula o logaritmo na base 10 de um valor.
+- **Square Root (`Button1Click`):** Calculates the square root of the entered number.
+- **Sine (`Button2Click`):** Calculates the sine of an angle in degrees.
+- **Cosine (`Button3Click`):** Calculates the cosine of an angle in degrees.
+- **Tangent (`Button6Click`):** Calculates the tangent of an angle in degrees.
+- **Cotangent (`Button7Click`):** Calculates the cotangent of an angle in degrees.
+- **Arctangent (`Button8Click`):** Calculates the arctangent of a value.
+- **Natural Logarithm (`Button14Click`):** Calculates the natural logarithm of a value.
+- **Base 2 Logarithm (`Button12Click`):** Calculates the base 2 logarithm of a value.
+- **Base 10 Logarithm (`Button13Click`):** Calculates the base 10 logarithm of a value.
 
-### Operações Especiais
+### Special Operations
 
-- **Fatorial (`Button20Click`):** Calcula o fatorial de um número inteiro.
-- **Valor Absoluto (`Button15Click`):** Calcula o valor absoluto de um número.
-- **Constantes Matemáticas:**
-  - **Número de Euler (`Button10Click`):** Retorna o valor de `e`.
-  - **Pi (`Button11Click`):** Retorna o valor de `π`.
+- **Factorial (`Button20Click`):** Calculates the factorial of an integer.
+- **Absolute Value (`Button15Click`):** Calculates the absolute value of a number.
+- **Mathematical Constants:**
+  - **Euler's Number (`Button10Click`):** Returns the value of `e`.
+  - **Pi (`Button11Click`):** Returns the value of `π`.
 
-## Uso
+## Usage
 
-1. **Digite um número** no campo de entrada (`Edit1`).
-2. **Selecione a operação** desejada clicando no botão correspondente.
-3. **Digite o segundo número** e clique novamente no botão da operação para obter o resultado.
+1. **Enter a number** in the input field (`Edit1`).
+2. **Select the desired operation** by clicking the corresponding button.
+3. **Enter the second number** and click the operation button again to get the result.
 
-### Exemplo
+### Example
 
-- Para adicionar dois números:
-  1. Digite o primeiro número.
-  2. Clique no botão de adição.
-  3. Digite o segundo número e clique novamente no botão de adição para ver o resultado.
+- To add two numbers:
+  1. Enter the first number.
+  2. Click the addition button.
+  3. Enter the second number and click the addition button again to see the result.
 
-## Requisitos
+## Requirements
 
-- **C++ Builder:** Ambiente de desenvolvimento utilizado.
-- **Assembly 64 bits:** Para otimização das operações matemáticas.
+- **C++ Builder:** Development environment used.
+- **64-bit Assembly:** For optimization of mathematical operations.
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Se você deseja contribuir para o desenvolvimento da CPPASM Calc v2.0, por favor, faça um fork do repositório, faça suas alterações e envie um pull request.
+Contributions are welcome! If you wish to contribute to the development of CPPASM Calc v2.0, please fork the repository, make your changes, and submit a pull request.
 
 ## **Download CPPASM Calc NOW**
 
 Win64 exe: [Download CPPASM Calc v2.0](/Project/CPPASM_Calc_v2.0.zip)
 
-## Licença
+## License
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
