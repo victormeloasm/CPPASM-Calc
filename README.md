@@ -4,7 +4,7 @@
 
 CPPASM Calc v2.1 is an advanced scientific calculator developed in C++ using inline Assembly for high precision and performance mathematical operations. This version includes a series of updates and improvements to provide a more efficient and intuitive calculation experience.
 
-![Calculator Interface](Screenshot.png)
+![Calculator Interface](Scrn.png)
 
 ## Features
 
