@@ -95,10 +95,29 @@ Version 2.0 brings a significant update to basic operations:
 
 Contributions are welcome! If you wish to contribute to the development of CPPASM Calc v2.0, please fork the repository, make your changes, and submit a pull request.
 
-## **Download CPPASM Calc NOW**
+# CPPASM Calc v2.0
 
-Win64 exe: [Download CPPASM Calc v2.0](/Project/CPPASM_Calc_v2.0.zip)
+## Latest Release
 
+### [CPPASM Calc v2.0 - Windows](https://github.com/victormeloasm/CPPASM-Calc/releases/tag/Windows) 🚀
+
+- **Platform:** Windows
+- **Description:** This release includes the Windows version of CPPASM Calc v2.0, optimized with Assembly and full support for basic operations using SSE4.2.
+- **Download:**
+  - [CPPASM.Calc.v2.0.zip](https://github.com/victormeloasm/CPPASM-Calc/releases/download/Windows/CPPASM.Calc.v2.0.zip)
+- **What's New:**
+  - Implementation of basic mathematical operations in Assembly.
+  - Bug fixes in the interface.
+  - Improved performance for floating-point calculations.
+
+---
+
+## Features
+
+* Addition, Subtraction, Multiplication, and Division with SSE4.2 support.
+* Intuitive interface for easy use.
+* Optimized input and output for precise floating-point calculations.
+* 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
