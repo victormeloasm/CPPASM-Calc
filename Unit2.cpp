@@ -24,6 +24,23 @@ using namespace std;
 
 __fastcall TForm2::TForm2(TComponent * Owner): TForm(Owner) {}
 
+int64_t vrand() {
+    int64_t randomValue;
+    unsigned char success;
+
+    __asm {
+        rdrand rax
+        mov randomValue, rax
+        setc success
+    }
+
+    if (success) {
+        return randomValue & 0x7FFFFFFFFFFFFFFF;
+    } else {
+        return 0;
+    }
+}
+
 double vadd(double a, double b) {
     double result;
     __asm {
@@ -579,7 +596,7 @@ void __fastcall TForm2::Button24Click(TObject *Sender) {
 }
 
 void __fastcall TForm2::Button25Click(TObject *Sender) {
-    double secondNumber = StrToFloat(Edit1->Text);
+	double secondNumber = StrToFloat(Edit1->Text);
     double result;
 
     if (firstInputDone) {
@@ -599,7 +616,7 @@ void __fastcall TForm2::Button25Click(TObject *Sender) {
         operation = '-';
         Edit1->Text = "";
         firstInputDone = true;
-    }
+	}
 
     Edit1->SetFocus(); // Volta o foco para o Edit1
 }
@@ -627,7 +644,18 @@ void __fastcall TForm2::Button23Click(TObject *Sender) {
         firstInputDone = true;
     }
 
-    Edit1->SetFocus(); // Volta o foco para o Edit1
+	Edit1->SetFocus();
 }
 //---------------------------------------------------------------------------
 
+void __fastcall TForm2::Button26Click(TObject *Sender)
+{
+if (Edit3 -> Text.IsEmpty()) {
+	  MessageBoxA(NULL, "O campo não pode ficar vazio.", "Aviso", MB_OK | MB_ICONWARNING);
+   } else {
+    int64_t maxRange = StrToInt(Edit3->Text);
+    int64_t randomValue = vrand() % (maxRange + 1);
+    Edit1->Text = IntToStr(randomValue);
+}
+//---------------------------------------------------------------------------
+ }

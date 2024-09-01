@@ -3,8 +3,8 @@ object Form2: TForm2
   Top = 0
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
-  Caption = 'CPPASM Calc v2.0'
-  ClientHeight = 673
+  Caption = 'CPPASM Calc v2.1'
+  ClientHeight = 708
   ClientWidth = 368
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -545,8 +545,8 @@ object Form2: TForm2
     OnClick = Button21Click
   end
   object Button22: TButton
-    Left = 40
-    Top = 576
+    Left = 16
+    Top = 574
     Width = 65
     Height = 25
     Caption = 'ADD'
@@ -560,7 +560,7 @@ object Form2: TForm2
     OnClick = Button22Click
   end
   object Button23: TButton
-    Left = 242
+    Left = 279
     Top = 615
     Width = 65
     Height = 25
@@ -575,8 +575,8 @@ object Form2: TForm2
     OnClick = Button23Click
   end
   object Button24: TButton
-    Left = 40
-    Top = 615
+    Left = 16
+    Top = 605
     Width = 65
     Height = 25
     Caption = 'MUL'
@@ -590,7 +590,7 @@ object Form2: TForm2
     OnClick = Button24Click
   end
   object Button25: TButton
-    Left = 242
+    Left = 279
     Top = 576
     Width = 65
     Height = 33
@@ -603,5 +603,23 @@ object Form2: TForm2
     ParentFont = False
     TabOrder = 26
     OnClick = Button25Click
+  end
+  object Button26: TButton
+    Left = 104
+    Top = 577
+    Width = 154
+    Height = 25
+    Caption = 'RANDOMIZE!'
+    TabOrder = 27
+    OnClick = Button26Click
+  end
+  object Edit3: TEdit
+    Left = 104
+    Top = 608
+    Width = 154
+    Height = 21
+    MaxLength = 20
+    NumbersOnly = True
+    TabOrder = 28
   end
 end

@@ -46,6 +46,8 @@ __published:	// IDE-managed Components
     TButton *Button23;
     TButton *Button24;
     TButton *Button25;
+	TButton *Button26;
+	TEdit *Edit3;
     void __fastcall Button1Click(TObject *Sender);
     void __fastcall Button2Click(TObject *Sender);
     void __fastcall Button3Click(TObject *Sender);
@@ -72,6 +74,7 @@ __published:	// IDE-managed Components
     void __fastcall Button24Click(TObject *Sender);
     void __fastcall Button25Click(TObject *Sender);
     void __fastcall Button23Click(TObject *Sender);
+	void __fastcall Button26Click(TObject *Sender);
 
 private:	// User declarations
     bool firstInputDone;
