@@ -97,7 +97,7 @@ Contribuições são bem-vindas! Se você deseja contribuir para o desenvolvimen
 
 ## **Download CPPASM Calc NOW**
 
-Win64 exe: [Download CPPASM Calc v2.0](/Project/CPPASM Calc v2.0.zip)
+Win64 exe: [Download CPPASM Calc v2.0](Project/CPPASM Calc v2.0.zip)
 
 ## Licença
 
