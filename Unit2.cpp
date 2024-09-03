@@ -659,3 +659,82 @@ if (Edit3 -> Text.IsEmpty()) {
 }
 //---------------------------------------------------------------------------
  }
+void __fastcall TForm2::Button27Click(TObject *Sender)
+{
+Edit1->Text = Edit1->Text + "1";
+Edit1->SetFocus();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button28Click(TObject *Sender)
+{
+  Edit1->Text = Edit1->Text + "2";
+  Edit1->SetFocus();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button29Click(TObject *Sender)
+{
+Edit1->Text = Edit1->Text + "3";
+Edit1->SetFocus();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button30Click(TObject *Sender)
+{
+Edit1->Text = Edit1->Text + "4";
+Edit1->SetFocus();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button31Click(TObject *Sender)
+{
+Edit1->Text = Edit1->Text + "5";
+Edit1->SetFocus();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button32Click(TObject *Sender)
+{
+Edit1->Text = Edit1->Text + "6";
+Edit1->SetFocus();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button35Click(TObject *Sender)
+{
+Edit1->Text = Edit1->Text + "7";
+Edit1->SetFocus();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button33Click(TObject *Sender)
+{
+Edit1->Text = Edit1->Text + "8";
+Edit1->SetFocus();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button34Click(TObject *Sender)
+{
+Edit1->Text = Edit1->Text + "9";
+Edit1->SetFocus();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button36Click(TObject *Sender)
+{
+Edit1->Text = Edit1->Text + "0";
+Edit1->SetFocus();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::Button37Click(TObject *Sender)
+{
+    if (Edit1->Text.Pos(",") == 0) {
+		Edit1->Text = Edit1->Text + ",";
+	}
+    Edit1->SetFocus();
+}
+//---------------------------------------------------------------------------
+

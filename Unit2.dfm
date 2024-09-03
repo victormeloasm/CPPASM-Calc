@@ -3,8 +3,8 @@ object Form2: TForm2
   Top = 0
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
-  Caption = 'CPPASM Calc v2.1'
-  ClientHeight = 708
+  Caption = 'CPPASM Calc v3.0'
+  ClientHeight = 730
   ClientWidth = 368
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -75,7 +75,7 @@ object Form2: TForm2
   TextHeight = 15
   object Label1: TLabel
     Left = 120
-    Top = 326
+    Top = 422
     Width = 124
     Height = 20
     Caption = 'TRIGONOMETRIC'
@@ -88,7 +88,7 @@ object Form2: TForm2
   end
   object Label2: TLabel
     Left = 128
-    Top = 456
+    Top = 543
     Width = 88
     Height = 20
     Caption = 'CONSTANTS'
@@ -101,7 +101,7 @@ object Form2: TForm2
   end
   object Label3: TLabel
     Left = 197
-    Top = 243
+    Top = 362
     Width = 29
     Height = 20
     Caption = 'Exp:'
@@ -325,7 +325,7 @@ object Form2: TForm2
   end
   object Label4: TLabel
     Left = 144
-    Top = 551
+    Top = 638
     Width = 51
     Height = 20
     Caption = 'BASICS'
@@ -335,6 +335,12 @@ object Form2: TForm2
     Font.Name = 'Segoe UI'
     Font.Style = [fsBold]
     ParentFont = False
+  end
+  object Bevel1: TBevel
+    Left = 8
+    Top = 157
+    Width = 352
+    Height = 132
   end
   object Edit1: TEdit
     Left = 64
@@ -348,7 +354,7 @@ object Form2: TForm2
   end
   object Button1: TButton
     Left = 8
-    Top = 176
+    Top = 295
     Width = 161
     Height = 25
     Caption = 'SQUARE ROOT'
@@ -357,7 +363,7 @@ object Form2: TForm2
   end
   object Button2: TButton
     Left = 192
-    Top = 352
+    Top = 448
     Width = 161
     Height = 25
     Caption = 'SINE'
@@ -366,7 +372,7 @@ object Form2: TForm2
   end
   object Button3: TButton
     Left = 8
-    Top = 352
+    Top = 448
     Width = 161
     Height = 25
     Caption = 'COSINE'
@@ -384,7 +390,7 @@ object Form2: TForm2
   end
   object Button5: TButton
     Left = 192
-    Top = 176
+    Top = 295
     Width = 161
     Height = 25
     Caption = 'INVERSE SQUARE ROOT'
@@ -393,7 +399,7 @@ object Form2: TForm2
   end
   object Button6: TButton
     Left = 8
-    Top = 384
+    Top = 480
     Width = 161
     Height = 25
     Caption = 'TANGENT'
@@ -402,7 +408,7 @@ object Form2: TForm2
   end
   object Button7: TButton
     Left = 192
-    Top = 384
+    Top = 480
     Width = 161
     Height = 25
     Caption = 'COTANGENT'
@@ -411,7 +417,7 @@ object Form2: TForm2
   end
   object Button8: TButton
     Left = 8
-    Top = 415
+    Top = 511
     Width = 161
     Height = 25
     Caption = 'ARCTANGENT'
@@ -420,7 +426,7 @@ object Form2: TForm2
   end
   object Button9: TButton
     Left = 192
-    Top = 416
+    Top = 512
     Width = 161
     Height = 25
     Caption = 'ARCSIN'
@@ -429,7 +435,7 @@ object Form2: TForm2
   end
   object Button10: TButton
     Left = 8
-    Top = 488
+    Top = 575
     Width = 73
     Height = 25
     Caption = 'Euler(e)'
@@ -438,7 +444,7 @@ object Form2: TForm2
   end
   object Button11: TButton
     Left = 96
-    Top = 488
+    Top = 575
     Width = 73
     Height = 25
     Caption = 'PI'
@@ -447,7 +453,7 @@ object Form2: TForm2
   end
   object Button12: TButton
     Left = 8
-    Top = 208
+    Top = 327
     Width = 161
     Height = 25
     Caption = 'LOG2(x)'
@@ -456,7 +462,7 @@ object Form2: TForm2
   end
   object Button13: TButton
     Left = 192
-    Top = 207
+    Top = 326
     Width = 162
     Height = 25
     Caption = 'POWER'
@@ -465,7 +471,7 @@ object Form2: TForm2
   end
   object Edit2: TEdit
     Left = 232
-    Top = 240
+    Top = 359
     Width = 97
     Height = 23
     MaxLength = 5
@@ -474,7 +480,7 @@ object Form2: TForm2
   end
   object Button14: TButton
     Left = 8
-    Top = 239
+    Top = 358
     Width = 161
     Height = 25
     Caption = 'NATURAL LOGARITHM'
@@ -483,7 +489,7 @@ object Form2: TForm2
   end
   object Button15: TButton
     Left = 8
-    Top = 272
+    Top = 391
     Width = 161
     Height = 25
     Caption = 'ABS'
@@ -492,7 +498,7 @@ object Form2: TForm2
   end
   object Button16: TButton
     Left = 192
-    Top = 488
+    Top = 575
     Width = 73
     Height = 25
     Caption = 'LN(2)'
@@ -501,7 +507,7 @@ object Form2: TForm2
   end
   object Button17: TButton
     Left = 277
-    Top = 488
+    Top = 575
     Width = 74
     Height = 25
     Caption = 'LOG10(2)'
@@ -510,7 +516,7 @@ object Form2: TForm2
   end
   object Button18: TButton
     Left = 8
-    Top = 519
+    Top = 606
     Width = 73
     Height = 25
     Caption = 'LOG2(e)'
@@ -519,7 +525,7 @@ object Form2: TForm2
   end
   object Button19: TButton
     Left = 96
-    Top = 520
+    Top = 607
     Width = 73
     Height = 25
     Caption = 'LOG2(10)'
@@ -528,7 +534,7 @@ object Form2: TForm2
   end
   object Button20: TButton
     Left = 192
-    Top = 272
+    Top = 391
     Width = 161
     Height = 25
     Caption = 'FACTORIAL'
@@ -546,7 +552,7 @@ object Form2: TForm2
   end
   object Button22: TButton
     Left = 16
-    Top = 574
+    Top = 661
     Width = 65
     Height = 25
     Caption = 'ADD'
@@ -561,7 +567,7 @@ object Form2: TForm2
   end
   object Button23: TButton
     Left = 279
-    Top = 615
+    Top = 692
     Width = 65
     Height = 25
     Caption = 'DIV'
@@ -576,7 +582,7 @@ object Form2: TForm2
   end
   object Button24: TButton
     Left = 16
-    Top = 605
+    Top = 692
     Width = 65
     Height = 25
     Caption = 'MUL'
@@ -591,9 +597,9 @@ object Form2: TForm2
   end
   object Button25: TButton
     Left = 279
-    Top = 576
+    Top = 663
     Width = 65
-    Height = 33
+    Height = 23
     Caption = 'SUB'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -606,7 +612,7 @@ object Form2: TForm2
   end
   object Button26: TButton
     Left = 104
-    Top = 577
+    Top = 664
     Width = 154
     Height = 25
     Caption = 'RANDOMIZE!'
@@ -615,11 +621,176 @@ object Form2: TForm2
   end
   object Edit3: TEdit
     Left = 104
-    Top = 608
+    Top = 695
     Width = 154
-    Height = 21
+    Height = 23
     MaxLength = 20
     NumbersOnly = True
     TabOrder = 28
+  end
+  object Button27: TButton
+    Left = 16
+    Top = 168
+    Width = 33
+    Height = 25
+    Caption = '1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 29
+    OnClick = Button27Click
+  end
+  object Button28: TButton
+    Left = 88
+    Top = 168
+    Width = 33
+    Height = 25
+    Caption = '2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 30
+    OnClick = Button28Click
+  end
+  object Button29: TButton
+    Left = 162
+    Top = 168
+    Width = 33
+    Height = 25
+    Caption = '3'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 31
+    OnClick = Button29Click
+  end
+  object Button30: TButton
+    Left = 232
+    Top = 168
+    Width = 33
+    Height = 25
+    Caption = '4'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 32
+    OnClick = Button30Click
+  end
+  object Button31: TButton
+    Left = 318
+    Top = 168
+    Width = 33
+    Height = 25
+    Caption = '5'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 33
+    OnClick = Button31Click
+  end
+  object Button32: TButton
+    Left = 48
+    Top = 208
+    Width = 33
+    Height = 25
+    Caption = '6'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 34
+    OnClick = Button32Click
+  end
+  object Button33: TButton
+    Left = 197
+    Top = 208
+    Width = 33
+    Height = 25
+    Caption = '8'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 35
+    OnClick = Button33Click
+  end
+  object Button34: TButton
+    Left = 277
+    Top = 208
+    Width = 33
+    Height = 25
+    Caption = '9'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 36
+    OnClick = Button34Click
+  end
+  object Button35: TButton
+    Left = 120
+    Top = 208
+    Width = 33
+    Height = 25
+    Caption = '7'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 37
+    OnClick = Button35Click
+  end
+  object Button36: TButton
+    Left = 120
+    Top = 249
+    Width = 110
+    Height = 25
+    Caption = '0'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 38
+    OnClick = Button36Click
+  end
+  object Button37: TButton
+    Left = 264
+    Top = 250
+    Width = 33
+    Height = 25
+    Caption = '.'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 39
+    OnClick = Button37Click
   end
 end

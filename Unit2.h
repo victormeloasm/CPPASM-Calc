@@ -48,6 +48,18 @@ __published:	// IDE-managed Components
     TButton *Button25;
 	TButton *Button26;
 	TEdit *Edit3;
+	TBevel *Bevel1;
+	TButton *Button27;
+	TButton *Button28;
+	TButton *Button29;
+	TButton *Button30;
+	TButton *Button31;
+	TButton *Button32;
+	TButton *Button33;
+	TButton *Button34;
+	TButton *Button35;
+	TButton *Button36;
+	TButton *Button37;
     void __fastcall Button1Click(TObject *Sender);
     void __fastcall Button2Click(TObject *Sender);
     void __fastcall Button3Click(TObject *Sender);
@@ -75,6 +87,17 @@ __published:	// IDE-managed Components
     void __fastcall Button25Click(TObject *Sender);
     void __fastcall Button23Click(TObject *Sender);
 	void __fastcall Button26Click(TObject *Sender);
+	void __fastcall Button27Click(TObject *Sender);
+	void __fastcall Button28Click(TObject *Sender);
+	void __fastcall Button29Click(TObject *Sender);
+	void __fastcall Button30Click(TObject *Sender);
+	void __fastcall Button31Click(TObject *Sender);
+	void __fastcall Button32Click(TObject *Sender);
+	void __fastcall Button35Click(TObject *Sender);
+	void __fastcall Button33Click(TObject *Sender);
+	void __fastcall Button34Click(TObject *Sender);
+	void __fastcall Button36Click(TObject *Sender);
+	void __fastcall Button37Click(TObject *Sender);
 
 private:	// User declarations
     bool firstInputDone;
