@@ -1,10 +1,10 @@
-# CPPASM Calc v2.1
+# CPPASM Calc v3.0
 
 ## Description
 
-CPPASM Calc v2.1 is an advanced scientific calculator developed in C++ using inline Assembly for high precision and performance mathematical operations. This version includes a series of updates and improvements to provide a more efficient and intuitive calculation experience.
+CPPASM Calc v3.0 is an advanced scientific calculator developed in C++ using inline Assembly for high precision and performance mathematical operations. This version includes a series of updates and improvements to provide a more efficient and intuitive calculation experience.
 
-![Calculator Interface](Scrn.png)
+![Calculator Interface](Screen.png)
 
 ## Features
 
@@ -28,13 +28,14 @@ CPPASM Calc v2.1 is an advanced scientific calculator developed in C++ using inl
 - **Absolute Value:** Calculates the absolute value of a number.
 - **Mathematical Constants:** Provides constants such as `e` (Euler's Number) and `π` (Pi).
 
-## New in Version 2.1
+## New in Version 3.0
 
 ### Basic Operations Improvements
 
 Version 2.0 brings a significant update to basic operations:
 - **Automatic Focus:** After each basic mathematical operation (addition, subtraction, multiplication, and division), the focus is automatically returned to the input field (`Edit1`), allowing the user to continue typing without needing to manually click on the field.
-
+-**Virtual Keyboard:** Now it has it own keyboard...
+  
 ### Detailed Updates
 
 #### Addition (`Button22Click`)
@@ -99,23 +100,25 @@ Contributions are welcome! If you wish to contribute to the development of CPPAS
 
 ## Latest Release
 
-### [CPPASM Calc v2.1 - Windows](https://github.com/victormeloasm/CPPASM-Calc/releases/tag/Random) 🚀
+### [CPPASM Calc v3.0 - Windows](https://github.com/victormeloasm/CPPASM-Calc/releases/tag/Random) 🚀
 
 - **Platform:** Windows
 - **Description:** This release includes the Windows version of CPPASM Calc v2.0, optimized with Assembly and full support for basic operations using SSE4.2.
 - **Download:**
-  - [CPPASM.Calc.v2.1.zip](https://github.com/victormeloasm/CPPASM-Calc/releases/download/Windows/CPPASM.Calc.v2.1.zip)
+  - [CPPASM.Calc.v3.0.zip](https://github.com/victormeloasm/CPPASM-Calc/releases/download/Windows/CPPASM.Calc.v2.1.zip)
 - **What's New:**
   - Implementation of basic mathematical operations in Assembly.
   - Bug fixes in the interface.
   - Improved performance for floating-point calculations.
   - Now supports RDRAND a hardware true random numbers generator.
+  - Virtual Keyboard implemented.
 
 ## Features
 
 * Addition, Subtraction, Multiplication, and Division with SSE4.2 support.
 * Intuitive interface for easy use.
 * Optimized input and output for precise floating-point calculations.
+* Virtual Keyboard implemented.
 
 ## License
 
